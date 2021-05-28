@@ -22,21 +22,27 @@
   float: left;
 }
 
+/* General */
 img {
   width: 100%;
 }
 
-.gray_layer {
+.gray_layer_banner {
   height: 460px;
   width: auto;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.gray_layer_column {
+  height: 190px;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
 /* Header */
 .menù {
   height: 120px;
-  background-color: #e579e6;
   margin-top: 30px;
 }
 
@@ -66,6 +72,7 @@ li {
   margin-top: 30px;
 }
 
+/* Banner */
 .banner {
   height: 460px;
   background-image: url(../img/banner.jpg);
@@ -74,6 +81,8 @@ li {
   background-position-y: center;
   color: white;
   border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .banner_text {
@@ -86,19 +95,32 @@ li {
   font-size: 32px;
 }
 
-
+/* Article */
 .second_content {
   height: 580px;
-  background-color: #0088f7;
+  /* background-color: #0088f7; */
   margin-top: 30px;
 }
 
 .top_section {
   height: 80px;
-  background-color: #abcfe6;
+  /* background-color: #abcfe6; */
   margin-bottom: 20px;
 }
 
+/* Title */
+#title {
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.sub_title {
+  color: #b4b4b4;
+  font-size: 16px;
+}
+
+/* Float Section */
 .float_section {
   margin-bottom: 20px;
 }
@@ -107,15 +129,52 @@ li {
 .right_section {
   height: 450px;
   width: 25%;
-  background-color: #abcfe6;
+  /* background-color: #abcfe6; */
 }
 
 .middle_section {
   height: 450px;
   width: calc(50% - 40px);
-  background-color: #abcfe6;
+  /* background-color: #abcfe6; */
   margin: 0px 20px;
 }
+
+/* Left Column */
+.column_img {
+  border-radius: 10px;
+  height: 190px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 30%;
+}
+
+.left_img {
+  background-image: url(../img/img-1.jpg);
+}
+
+.right_img {
+  background-image: url(../img/img-3.jpg);
+}
+
+.middle_img {
+  background-image: url(../img/banner-2.jpg);
+  background-position-y: 50%;
+}
+
+/* Column Paragraph */
+
+.article {
+  font-size: 16px;
+  color: #b4b4b4;
+}
+
+.title_p {
+  padding: 10px 0;
+  color: black;
+  font-weight: normal;
+}
+
 
 /* Footer */
 .end_page {
