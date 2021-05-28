@@ -40,10 +40,16 @@ img {
   border-radius: 10px;
 }
 
+hr {
+  border: 0px;
+} 
+
 /* Header */
 .menù {
   height: 120px;
   margin-top: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Logo */
@@ -51,6 +57,7 @@ img {
   height: 50px;
   width: 170px;
 }
+
 #img_logo {
   padding-right: 20px;
   border-right: 1px solid #cbbeb7;
@@ -74,21 +81,16 @@ li {
 
 /* Banner */
 .banner {
-  height: 460px;
+  height: 100%;
   background-image: url(../img/banner.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-y: center;
   color: white;
   border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.banner_text {
-  padding-left: 50px;
-  padding-top: 300px;
-  width: 50%;
+  min-height: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .banner_title {
@@ -110,7 +112,7 @@ li {
 
 /* Title */
 #title {
-  padding-top: 10px;
+  padding-top: 1%;
   font-size: 36px;
   font-weight: bold;
 }
@@ -122,21 +124,25 @@ li {
 
 /* Float Section */
 .float_section {
-  margin-bottom: 20px;
+  margin-bottom: 15%;
 }
 
 .left_section,
 .right_section {
-  height: 450px;
+  height: 445px;
   width: 25%;
   /* background-color: #abcfe6; */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .middle_section {
-  height: 450px;
+  height: 445px;
   width: calc(50% - 40px);
   /* background-color: #abcfe6; */
   margin: 0px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Left Column */
@@ -175,7 +181,6 @@ li {
   font-weight: normal;
 }
 
-
 /* Footer */
 .end_page {
   height: 60px;
@@ -184,11 +189,11 @@ li {
   margin-bottom: 30px;
 }
 
-.credit{
-    text-align: center;
-    line-height: 60px;
-    font-weight: normal;
+.credit {
+  text-align: center;
+  line-height: 60px;
+  font-weight: normal;
 }
-.fa-heart{
-    color: red;
+.fa-heart {
+  color: red;
 }
