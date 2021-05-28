@@ -179,7 +179,16 @@ li {
 /* Footer */
 .end_page {
   height: 60px;
-  background-color: #8801fe;
+  /* background-color: #8801fe; */
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.credit{
+    text-align: center;
+    line-height: 60px;
+    font-weight: normal;
+}
+.fa-heart{
+    color: red;
 }
