@@ -42,7 +42,7 @@ img {
 
 hr {
   border: 0px;
-} 
+}
 
 /* Header */
 .menù {
@@ -84,7 +84,6 @@ li {
   height: 100%;
   background-image: url(../img/banner.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position-y: center;
   color: white;
   border-radius: 10px;
@@ -93,8 +92,19 @@ li {
   text-overflow: ellipsis;
 }
 
+.banner_text {
+  padding-top: 300px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
 .banner_title {
   font-size: 32px;
+}
+
+.banner_p {
+padding-top: 10px;
 }
 
 /* Article */
@@ -150,7 +160,6 @@ li {
   border-radius: 10px;
   height: 190px;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position-x: 50%;
   background-position-y: 30%;
 }
